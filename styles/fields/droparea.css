@@ -1,11 +1,11 @@
 .dropzone {
   border: 2px dashed transparent;
   outline: 1px dashed var(--stroke-default);
-  border-radius: 0.25rem;
+  border-radius: .25rem;
 
   display: grid;
   justify-items: center;
-  gap: 0.5rem;
+  gap: .5rem;
 
   text-align: center;
   padding: 1.75rem 1rem;
@@ -21,7 +21,7 @@
   }
 
   & p {
-    color: #a8a29e;
+    color: #A8A29E;
   }
 
   &:hover,
@@ -30,9 +30,8 @@
     border-color: var(--stroke-highlight);
     background-color: var(--surface-secondary);
 
-
     & p {
-      color: var(--stroke-highlight);
+      color: var(--text-tertiary);
     }
 
     & svg path {
